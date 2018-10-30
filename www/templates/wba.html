@@ -1,0 +1,22 @@
+<ion-view title="wba" id="page6">
+  <ion-content padding="true" class="has-header">
+
+    <div ng-app="myApp" ng-controller="wbaCtrl">
+
+
+      <h2>Symbol: {{symbol}}</h2>
+      <br>
+      <h2 ng-model="a">Current stock price: {{stock}}</h2>
+      <br>
+      <h2>Date of last analysis: {{date}}</h2>
+      <br>
+      <h2 ng-model="b">Previous {{previous}}</h2>
+      <br>
+      <h2 >Difference: {{dif}}</h2>
+      <br>
+      <h2>Recommendation: {{rec}}</h2>
+      <br>
+
+<a ui-sref="page()" id="wba-button23" class="button button-positive button-block">Return</a>
+  </ion-content>
+</ion-view>
